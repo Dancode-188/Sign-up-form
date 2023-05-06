@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  background: gainsboro;
+  background-image: url(images/nature.jpg);
+  width: 400px;
+}
+.left {
+  float: left;
+  margin: 0 15px;
+}
+
+.right {
+  float: right;
+  margin-left: 10px;
+}
+
+label,input{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+button {
+  background: #596D48;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  min-height: 180px;
+}
+
+label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 7px;
+  font-weight: 900;
+}
+
+.call {
+ font-family: 'Roboto', sans-serif;
+ font-size: 14px;
+ font-weight: 600;
+ margin: 100px 120px 0 15px;
+}
+
+input {
+  border-color: #E5E7EB;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: #E5E7EB;
+}
+
+h4 {
+  margin-left: 12px;
+}
+
+.login {
+  margin-left: 15px;
+}
+
+a:link {
+  color: rgb(33, 122, 33);
+  text-decoration: none;
+}
+
+a:active {
+  color: rgb(99, 99, 9);
+}
